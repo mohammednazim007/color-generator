@@ -192,6 +192,7 @@ const copy_color = (checkValue) => {
             navigator.clipboard.writeText(`rgb${ rgb_input.value }`)
             audio.volume = .4
             audio.play()
+
         }
     }
 
