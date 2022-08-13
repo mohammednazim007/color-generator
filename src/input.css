@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom css */
+body,
+h1,
+h2,
+span,
+small,
+p {
+  /* font-family: "Kanit", sans-serif; */
+  font-family: "Inspiration", cursive;
+}
+
+/* custom css */
+.wraper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+body.custom_bg_color {
+  background: #273c75;
+}
+.wraper {
+  background: #192a56;
+  border-radius: 2px;
+}
+.heshTag {
+  position: absolute;
+  top: 29px;
+  left: 1px;
+  font-size: 21px;
+  background: gray;
+  padding: 0px 7px;
+}
+div#rgb_color {
+  position: absolute;
+  bottom: 1px;
+  text-transform: uppercase;
+  background: gray;
+  padding: 4px 7px;
+  font-size: 17px;
+  border-radius: 4px 2px 0px 4px;
+}
+input#rgb_input {
+  padding-left: 55px;
+}
+input#hex_input {
+  padding-left: 55px;
+}
+#preset_mainDiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 4px;
+  height: 170px;
+  overflow: auto;
+}
+.setColor {
+  height: 40px;
+}
+#savePreset {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 4px;
+}
